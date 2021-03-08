@@ -72,7 +72,7 @@ def can_be_found_updated_and_saved
   Movie.create(title: "Awesome Flick")
   binding.pry
   movie = Movie.find_by(name: "Awesome Flick")
-  movie.update(title: "Event Awesomer Flick")
+  movie.update(title: "Even Awesomer Flick")
   movie
 end
 
